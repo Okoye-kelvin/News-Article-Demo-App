@@ -1,14 +1,14 @@
-import streamlit as st # type: ignore
-import string # type: ignore
-from nltk.corpus import stopwords # type: ignore
-from nltk.tokenize import word_tokenize # type: ignore
-from nltk.stem import WordNetLemmatizer # type: ignore
-from nltk import pos_tag # type: ignore
-import matplotlib.pyplot as plt # type: ignore
-import spacy # type: ignore
-import pandas as pd # type: ignore
-from collections import Counter # type: ignore
-from nltk.sentiment.vader import SentimentIntensityAnalyzer # type: ignore
+import streamlit as st
+import string 
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
+from nltk import pos_tag 
+import matplotlib.pyplot as plt
+import spacy 
+import pandas as pd
+from collections import Counter
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 # Load spaCy model
 Nlp = spacy.load("en_core_web_sm")
